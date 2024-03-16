@@ -1,0 +1,178 @@
+{
+  "editor.fontSize": 18,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.editor.closeOnFileDelete": true,
+  "extensions.ignoreRecommendations": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontWeight": "600",
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "scm.diffDecorationsGutterWidth": 2,
+  "debug.onTaskErrors": "debugAnyway",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "debug.toolBarLocation": "docked",
+  "editor.cursorStyle": "line",
+  "editor.lineHeight": 38,
+  "explorer.autoReveal": true,
+  "editor.fontWeight": "500",
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "phase",
+  "npm.runSilent": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always",
+    "source.addMissingImports": "always"
+  },
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.panel.defaultLocation": "left",
+  "files.autoSave": "off",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 16,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "Terminal.app",
+  "terminal.integrated.env.osx": {},
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "cSpell.allowCompoundWords": true,
+  "cSpell.language": "en,en-US",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "update.mode": "start",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "Operator Mono Lig",
+  "editor.fontLigatures": true,
+  "editor.snippetSuggestions": "top",
+  "editor.autoIndent": "none",
+  "editor.wordWrap": "on",
+  "editor.cursorWidth": 5,
+  "projectManager.git.baseFolders": [
+    "/Users/alirezaakbarzadeh/workshop",
+    "Users/alirezaakbarzadeh/project",
+    "/home/alireza/hit"
+  ],
+  "editor.minimap.enabled": false,
+  "cSpell.userWords": ["zustand"],
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "top",
+  "editor.tabCompletion": "on",
+  "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "terminal.integrated.env.linux": {},
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#00FFFF",
+    "statusBar.foreground": "#000",
+    "statusBar.noFolderBackground": "#212121",
+    "statusBar.debuggingBackground": "#263238",
+    "editorCursor.foreground": "#00FFFF",
+    "terminalCursor.foreground": "#00FFFF"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.mouseWheelZoom": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+
+  // this config for better comment extention
+
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "<>",
+      "color": "#ff5500",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "h",
+      "color": "#00FF00",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "<>",
+      "color": "#ff5500",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "h",
+      "color": "#00FF00",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    }
+  ]
+}
