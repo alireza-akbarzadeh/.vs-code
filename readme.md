@@ -1,6 +1,6 @@
 ## This is my .vs-code config including setting and keybinding
 
-## If you need more information about the configuration of your terminal check out this repos .dotfile 
+## If you need more information about the configuration of your terminal check out this repo
 
 https://github.com/alireza-akbarzadeh/dotfiles
 
