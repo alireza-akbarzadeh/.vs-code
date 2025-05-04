@@ -10,10 +10,12 @@ notepad $PROFILE
 function gs  { git status }
 function ga  { git add $args }
 function gaa { git add . }
-function gc  { git commit -m "$args" }
+function gcm  { git commit -m "$args" }
 function gca { git commit --amend }
-function gcm { git checkout main }
+function gsm { git switch main }
+function gsc { git switch -c }
 function gb  { git branch }
+function gsw  { git switch }
 function gba { git branch -a }
 function gl  { git log --oneline --graph --all --decorate }
 function gd  { git diff }
