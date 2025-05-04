@@ -1,0 +1,49 @@
+#first for open the file to edit power shell 
+
+if (!(Test-Path $PROFILE)) { New-Item -Type File -Path $PROFILE -Force }
+notepad $PROFILE
+
+
+
+
+# Git aliases
+function gs  { git status }
+function ga  { git add $args }
+function gaa { git add . }
+function gc  { git commit -m "$args" }
+function gca { git commit --amend }
+function gcm { git checkout main }
+function gb  { git branch }
+function gba { git branch -a }
+function gl  { git log --oneline --graph --all --decorate }
+function gd  { git diff }
+function gco { git checkout $args }
+function gp  { git pull }
+function gpu { git push }
+function gpf { git push --force }
+function gcl { git clone $args }
+function grs { git restore $args }
+function grh { git reset --hard }
+
+# PNPM aliases
+function pi  { pnpm install }
+function pis { pnpm install $args }
+function pr  { pnpm run $args }
+function pbd { pnpm build }
+function pst { pnpm start }
+function pdev { pnpm dev }
+
+# Project shortcuts
+function pclean { Remove-Item -Recurse -Force node_modules, dist, .turbo -ErrorAction SilentlyContinue; echo "Cleaned!" }
+function preinstall { pclean; pi }
+
+# Other helpful commands
+Set-Alias ll Get-ChildItem
+Set-Alias .. Set-Location ..
+Set-Alias ... { Set-Location ../.. }
+
+# Reload profile easily
+function reload-profile { . $PROFILE; Write-Host "✅ Profile reloaded!" -ForegroundColor Green }
+
+
+. $PROFILE
